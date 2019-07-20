@@ -1,0 +1,41 @@
+.screen {
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  background: white;
+  height: 100%;
+ /* Fallback for browsers do NOT support vh unit */
+  height: 100vh;
+ /* These two lines are counted as one */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 25px;
+}
+footer {
+  padding: 0;
+  line-height: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer p {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 5px;
+}
+.social-icons {
+  list-style: none;
+  display: inline-flex;
+}
+.fa {
+  font-size: 16px;
+  padding-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+.fa-chevron-up, .heart-icon {
+  color: #f77;
+}

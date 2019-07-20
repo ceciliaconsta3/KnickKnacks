@@ -1,0 +1,33 @@
+a {
+	color: #555;
+}
+
+.activated-item {
+		font-weight: bold;
+		color: blue;
+}
+section {
+    margin-top: 50px;
+}
+
+article {
+    border: 1px solid black;
+    height: 80vh;
+    margin-top: 50px;
+}
+
+nav {
+	border: 1px solid blue;
+	background-color: yellow;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 150px;
+}
+
+/*.nav-links:active {
+		font-weight: bold;
+		color: blue;
+}
+*/

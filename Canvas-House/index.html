@@ -1,0 +1,55 @@
+<!-- Decided to mess around with 2D graphics using JavaScript and the HTML5 canvas API. Nothing fancy.  One thing I noticed while creating this is that the placement of the <code>fillStyle</code> and the hierarchy of the paths matter. Ignoring this results in overlapping objects and unintentionally color applications. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5 Canvas API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,700">
+    <!-- Vendor -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="container text-center">
+            <section class="vertical-center">
+                <header>
+                    <h1>
+                        Practicing with the HTML5 Canvas API
+                    </h1>
+                </header>
+                <canvas id="myCanvas" height="475" width="500" style=" border: 1px solid black;">
+      <!-- Don't forget this is -->
+          Sorry, canvas is not supported by your browser! :C
+                </canvas>
+            </section>
+        </div>
+        <!-- end screen container -->
+
+        <!-- Footer and Social Icons -->
+        <footer class="text-center container-fluid">
+            <div class="btn-group social-icons">
+                <a href="https://www.github.com/ceciliaconsta3" target="_blank" class="btn"><i class="fa fa-github fa-2x"></i></a>
+                <a href="https://linkedin/in/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-twitter fa-2x"></i></a>
+            </div>
+            <!-- Credits -->
+            <div class="copyright">
+                <p>&copy; 2017 Made with <span class="heart-icon">❤</span> by Cecilia Constantine</p>
+            </div>
+        </footer>
+    </div>
+    <!-- end of screen container -->
+</body>
+
+</html>

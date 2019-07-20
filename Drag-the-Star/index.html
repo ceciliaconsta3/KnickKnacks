@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drag and Drop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Vendor -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,700">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="container text-center vertical-center">
+            <h1> Practice using the HTML5 Drag N' Drop API</h1>
+            <p id="cond-text"> Move Miss Star into the square</p>
+            <img id="dragImage" src="https://ih0.redbubble.net/image.120515253.5824/sticker,375x360.u2.png" alt="grey square" draggable="true" ondragstart="drag(event)">
+            <div id="dragTarget" class="text-center" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+            <div id="reset-btn">
+                <button class="btn btn-md btn-primary">Redo</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer and Social Icons -->
+    <footer class="text-center container-fluid">
+        <div class="btn-group social-icons">
+            <a href="https://www.github.com/ceciliaconsta3" target="_blank" class="btn"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://linkedin/in/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com/ceciliaconsta3/" target="_blank" class="btn"><i class="fa fa-twitter fa-2x"></i></a>
+        </div>
+        <!-- Credits -->
+        <div class="copyright">
+            <p>&copy; 2017 Made with <span class="heart-icon">❤</span> by Cecilia Constantine</p>
+        </div>
+    </footer>
+</body>
+
+</html>
