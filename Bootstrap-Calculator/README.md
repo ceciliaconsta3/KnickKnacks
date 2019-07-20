@@ -1,4 +1,4 @@
-# Bootstrap Calculator
+# :iphone: Bootstrap Calculator
 ## Student Project from The Academy of South Florida
 First Web Development related project: A Simple web calculator
 
