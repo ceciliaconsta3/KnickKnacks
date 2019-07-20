@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--For proper rendering and zooming on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--good HTML5 reference: http://diveintohtml5.info/semantics.html-->
+	<!-- double check your outlining for organization,screenreader, and SEO reasons: https://gsnedders.html5.org/outliner/-->
+    <title>Cecilia Constantine</title>
+
+    <link rel="shortcut icon icon" type="image/x-icon" href="images/favicon.ico" />
+	<!-- start on clean browser slate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" />
+    <!--Compiled Minified CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <!--Compiled JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+    <!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento+Sans" rel="stylesheet">
+	<!--My custom CSS-->	
+    <link href="style/index.css" rel="stylesheet" />
+
+</head>
+<body id="index-body">
+
+	<!--navigation bar with links-->
+	<nav class="calc-nav">
+		<ul>
+			<li class="calc-li"><a href="index.html">Home</a></li>
+			<li class="calc-li"><a href="calcButtons.html">Calculator</a></li>
+			<li class="calc-li"><a href="http://Davisheartscecilia2017.com">Wedding</a></li>
+        </ul>		
+	</nav>
+	
+	<!--the main header for this page-->
+    <header>
+		<hgroup>
+			<a href="aboutMe.html"><img class="index-img" src="images/headshot.png" alt="Cecilia's headshot"/></a>
+			<h1 class="index-h1">Cecilia Constantine</h1>
+			<h3>Just an ordinary lady with extraordinary developing dreams</h3>
+		</hgroup>
+    </header>
+
+    <!--subscriber call to action (CTA) -->
+   <small>See what I'm up to</small><br/>
+   <form name="subscribers">
+		<input class="index-email index-input" type="email" name="email" placeholder="Email address here" required />
+		<button class="btn btn-warning btn-large index-input" type="submit" onclick="showDiv()"/>Submit</button>
+   </form>
+
+	<div id="alert" class="alert alert-success alert-dismissable" role="alert"> 
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>		
+		Thanks for the visit!
+	</div>
+
+	<!-- Added to show alert message only on successful email submission-->
+   <script>
+	//    $(document).ready(function(){
+	// 		$("button").submit(function(){
+	// 			$('.alert').show();
+	// 		});
+	// 	});	
+
+	function showDiv () {
+		document.getElementById("alert").style.display = "block";
+	}
+// function showDiv() {
+//     var x = document.getElementById('alert');
+//     if (x.style.display === 'none') {
+//         x.style.display = 'block';
+//     } else {
+//         x.style.display = 'none';
+//     }
+// }
+
+   </script>
+
+
+	<!--footer-->
+    <footer>
+        <p>Copyright &copy; 2016, Cecilia C. Constantine. All Rights Reserved.</p>
+    </footer>	
+	
+</body>
+</html>

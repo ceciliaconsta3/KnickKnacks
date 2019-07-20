@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--For proper rendering and zooming on all devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cecilia's Web Calculator Project</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    
+    <!--Compiled Minified CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <!--Compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quattrocento+Sans" rel="stylesheet">
+    <!--My custom CSS and Js/JQuery-->
+    <link href="style/index.css" rel="stylesheet" />
+    <script src="scripts/calcButtons.js"></script>
+
+</head>
+<body id="calc-body">
+
+    <nav class="calc-nav">
+        <ul>
+            <li class="calc-li"><a href="index.html">Home</a></li>
+            <li class="calc-li"><a href="#"></a>Contact</li>
+        </ul>
+    </nav>
+
+    <img class="calc-img" src="images/animat-responsive-color.gif" alt="animated icon revolving through web technologies" />
+
+    <header class="calc-header">
+        <h1 class="calc-h1">Cecilia's Web Calculator</h1>
+        <h2 class="calc-h2">Project No. 3</h2>
+    </header>
+
+
+    <div class="container-fluid" id="calcborder">
+
+        <div class="row">
+            <input class="btn-block calc-input" id="display" type="text" />
+        </div>
+
+        <div class="row ">
+            <button type="button" class="col-xs-3 btn btn-md btn3d btn-warning operator" id="multiply">x</button>
+            <button type="button" class="col-xs-3 btn btn-md btn3d btn-warning operator" id="subtract">-</button>
+            <button type="button" class="col-xs-3 btn btn-md btn3d btn-warning operator" id="divide">÷</button>
+            <button type="button" class="col-xs-3 btn btn-md btn3d btn-warning operator" id="add">+</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn8">8</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn9">9</button>
+            <button type="button" class="col-xs-6 btn btn3d btn-md btn-danger" id="btnClear">C</button>
+        </div>
+        <div class="row">
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn4">4</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn5">5</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn6">6</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn7">7</button>
+        </div>
+        <div class="row">
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn0">0</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn1">1</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn2">2</button>
+            <button type="button" class="col-xs-3 btn btn3d btn-md btn-primary" id="btn3">3</button>
+        </div>
+
+        <div class="row">
+            <button type="button" id="btnCalculate" class="col-xs-12 btn btn-md btn3d btn-success btn-block">Enter</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Copyright &copy; 2016, Cecilia C. Constantine. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
