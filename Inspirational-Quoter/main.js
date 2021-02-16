@@ -11,7 +11,7 @@ function newQuote() {
 
 // generates number reflects random quote in the workHardWisdom json array
 var randomNumber = Math.floor(Math.random() * (allQuotes.length));
-document.getElementById("quoteDisplay").innerHTML = allQuotes[randomNumber];
+document.getElementById("quoteDisplay").textContent = JSON.stringify(allQuotes[randomNumber].quote);
 console.log(allQuotes[randomNumber]);
 
 // // need to loop through JSON array and print quote attribute
